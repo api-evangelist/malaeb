@@ -1,8 +1,26 @@
 aid: malaeb
 name: Malaeb
-description: Malaeb is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Malaeb (ملاعب) is the #1 sports pitch and facility booking application in the MENA
+  region, letting players discover and reserve stadiums, courts, and pitches around
+  them across Bahrain, Saudi Arabia, Kuwait, the United Arab Emirates, and Oman.
+  Backed by 500 Global, Malaeb connects players and venue operators through a consumer
+  mobile marketplace. As of this enrichment pass the company publishes no public
+  developer API, documentation, or well-known discovery surface; its web presence is
+  a WordPress marketing site fronting a React single-page application.
 url: https://raw.githubusercontent.com/api-evangelist/malaeb/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://malaebapp.com/images/malaeb.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sports
+- Booking
+- Marketplace
+- Mobile App
+- MENA
+- Recreation
+- Facility Booking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://malaebapp.com
+- type: DomainSecurity
+  url: security/malaeb-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
